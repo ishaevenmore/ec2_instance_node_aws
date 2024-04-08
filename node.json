@@ -1,0 +1,507 @@
+{
+    "passUrl": {
+        "urls": [
+            "https://www.nba.com/suns/"
+        ],
+        "login": true,
+        "credentials": {
+            "email": "abg@mail.com",
+            "password": "blahblah"
+        },
+        "depth": 1,
+        "notify": "Webhook endpoint URL",
+        "exclusions": [
+            "https://usa.visa.com/about-visa/newsroom.html",
+            "https://usa.visa.com/visa-everywhere/blog.html"
+        ]
+    },
+    "scrapedData": [
+        {
+            "https://www.nba.com/suns/": {
+                "extractedData": {
+                    "documentId": "Suns.com",
+                    "title": "Suns.com",
+                    "section": [
+                        {
+                            "title": "Tune In:",
+                            "text": "",
+                            "section": [
+                                {
+                                    "title": "Tune In: Suns at Nuggets Wednesday, March 27th at 7PM MST",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "STAY SOCIAL",
+                                    "text": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "PHX",
+                            "text": "130",
+                            "section": [
+                                {
+                                    "title": "DET",
+                                    "text": "126"
+                                },
+                                {
+                                    "title": "DEN",
+                                    "text": "115"
+                                },
+                                {
+                                    "title": "107",
+                                    "text": "",
+                                    "section": [
+                                        {
+                                            "title": "01:59",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:03",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:11",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:12",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:00",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:24",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:35",
+                                            "text": ""
+                                        },
+                                        {
+                                            "title": "02:19",
+                                            "text": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "122",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "POR",
+                                    "text": "111"
+                                },
+                                {
+                                    "title": "106",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "117",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "123",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "LAL",
+                                    "text": "100"
+                                },
+                                {
+                                    "title": "108",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "GSW",
+                                    "text": "104"
+                                },
+                                {
+                                    "title": "95",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "UTA",
+                                    "text": "104"
+                                },
+                                {
+                                    "title": "Coca-Cola & Fry’s Food Stores Tip-Off",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "SAS",
+                                    "text": "115"
+                                },
+                                {
+                                    "title": "114",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "132",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "121",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Dia de los Muertos presented by Hornitos",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "PHI",
+                                    "text": "112"
+                                },
+                                {
+                                    "title": "120",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "116",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "CHI",
+                                    "text": "115"
+                                },
+                                {
+                                    "title": "119",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "La Música del Valle fueled by The Desert Ford Dealers",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "OKC",
+                                    "text": "111"
+                                },
+                                {
+                                    "title": "99",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Military Appreciation Night presented by USAA",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "MIN",
+                                    "text": "115"
+                                },
+                                {
+                                    "title": "133",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "ORIGINATIV Night hosted by Gila River Resorts and Casinos",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "131",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "128",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "140",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "137",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "110",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "MEM",
+                                    "text": "89"
+                                },
+                                {
+                                    "title": "NYK",
+                                    "text": "113"
+                                },
+                                {
+                                    "title": "105",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "TOR",
+                                    "text": "112"
+                                },
+                                {
+                                    "title": "109",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "103",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "SAC",
+                                    "text": "114"
+                                },
+                                {
+                                    "title": "BKN",
+                                    "text": "116"
+                                },
+                                {
+                                    "title": "139",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Shawn Marion Ring of Honor Night",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "WAS",
+                                    "text": "108"
+                                },
+                                {
+                                    "title": "DAL",
+                                    "text": "128"
+                                },
+                                {
+                                    "title": "Christmas Day Game",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "129",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "HOU",
+                                    "text": "113"
+                                },
+                                {
+                                    "title": "CHA",
+                                    "text": "119"
+                                },
+                                {
+                                    "title": "ORL",
+                                    "text": "107"
+                                },
+                                {
+                                    "title": "88",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "LAC",
+                                    "text": "131"
+                                },
+                                {
+                                    "title": "MIA",
+                                    "text": "97"
+                                },
+                                {
+                                    "title": "138",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "127",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "NOP",
+                                    "text": "109"
+                                },
+                                {
+                                    "title": "IND",
+                                    "text": "110"
+                                },
+                                {
+                                    "title": "First Responders Night presented by Banner Health",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "98",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "118",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "136",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "ATL",
+                                    "text": "129"
+                                },
+                                {
+                                    "title": "MIL",
+                                    "text": "106"
+                                },
+                                {
+                                    "title": "Black Excellence Night presented by Opendoor",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Pet Party Night presented by Invitation Homes",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "125",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Amare Stoudemire Ring of Honor Night",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Halftime Performance fueled by The Desert Ford Dealers: DJ Paul",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "BOS",
+                                    "text": "117"
+                                },
+                                {
+                                    "title": "CLE",
+                                    "text": "111"
+                                },
+                                {
+                                    "title": "96",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "102",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Women's Empowerment Night presented by CarMax",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "42-29",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "15-56",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "50-21",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "49-21",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "44-27",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "43-28",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Pride Night supported by PayPal",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "49-22",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Sustainability Night presented by Footprint",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Gorilla's Mascot Madness",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "44-26",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "Fry's Fan Appreciation",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "41-29",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "SUNS LEADERS",
+                                    "text": "D. Booker36 ptsK. Durant6 astJ. Nurkic9 reb"
+                                },
+                                {
+                                    "title": "02:51",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "02:14",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "02:39",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "02:17",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "02:33",
+                                    "text": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "00:11",
+                            "text": "",
+                            "section": [
+                                {
+                                    "title": "00:14",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "00:06",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "00:09",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "00:05",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "00:10",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "00:07",
+                                    "text": ""
+                                },
+                                {
+                                    "title": "00:12",
+                                    "text": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "webpageUrls": []
+            }
+        }
+    ],
+    "metadata": {
+        "startTime": "3/28/2024, 2:03:19 AM",
+        "endTime": "3/28/2024, 2:04:03 AM",
+        "processTime(Seconds)": 44.57527898100018,
+        "urlProcessed": [
+            "https://www.nba.com/suns/"
+        ]
+    }
+}
