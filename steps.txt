@@ -1,0 +1,57 @@
+==============================================================================================================================================================
+========================================================Nodejs AWS Upload Code Server EC2 to Instance=========================================================
+==============================================================================================================================================================
+
+1. Go EC2 Dashboard
+2. Launch Instance
+    -> Name and tags
+    -> Application and OS Images (Amazon Machine Image) -> Quick Start -> Select Ubuntu
+    -> Key pair (login)
+        -> Create new key pair
+            -> Key pair name
+            -> Key pair type -> Select RSA
+            -> Private key file format - Select .pem
+            -> Click Create key pair button
+            -> Auto Download .pem file
+    -> Click Launch Instance button 
+3. Instances
+    -> Go Instances
+    -> Select the instance that launched the instance -> click Asia Pacific (Mumbai) ap-south-1
+    -> Select the instance that launched the instance -> click connect button
+    -> ckick SSH client
+4. Open terminal
+    -> go .pem file directory
+    -> run this command :- 
+        - chmod 400 filename.pem
+        - ssh -i "filename.pem" ubuntu@ec2-13-235-27-180.ap-south-1.compute.amazonaws.com  // replace your command
+        - Are you sure you want to continue connecting (yes/no/[fingerprint])? Type $ yes
+        - ubuntu@ip-172-31-46-5:~ 
+        - ls
+        - ll 
+5. Once connected Install Node, NPM & PM2 on the EC2 instance
+    -> sudo apt-get install curl    // this line installs curl on the Ubuntu server
+    -> curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -    // this line downloads Node.js
+    -> sudo apt-get install nodejs    // this line installs node
+    -> sudo npm install pm2@latest -g      // this line install pm2 on the ubuntu
+    -> Check Version of node and npm
+            - node -v
+            - npm -v
+        => Go Local folder
+            - git remote -v    // give 2 url you can copy (fetch) url
+    -> git clone 'your repo link'   // run this while you are connected to your EC2 instance
+    -> ls
+    -> cd 'your-folder-name'
+    -> ls, ll
+    -> Install all the dependencies, by going inside the cloned folder and usually
+        - npm install
+    -> node filename.js    // Manually run the NODE API
+6. Output Browser (live url)
+    -> Go Instances
+    -> Select the instance that launched the instance
+    -> Details -> Public IPv4 address copy
+    -> Allow access to your EC2 instance via the port where your API is running
+        - Security -> Security Groups click link -> Inbound rules -> Select row -> Edit inbound rules click button
+                   -> Add rule -> Type select 'Custom TCP' -> post range '5000' // your port number -> source select 'Anywhere-IPv4' -> save rules
+    -> Public IPv4 address:post range  (http://13.235.27.180:5000/)      // Open url in your browser
+         
+        
