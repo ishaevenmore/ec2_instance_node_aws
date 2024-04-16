@@ -55,3 +55,6 @@
     -> Public IPv4 address:post range  (http://13.235.27.180:5000/)      // Open url in your browser
          
         
+
+
+=> ssh -i "Web Server New.pem" ubuntu@ec2-13-235-27-180.ap-south-1.compute.amazonaws.com
